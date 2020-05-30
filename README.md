@@ -1,2 +1,2 @@
-# true-guitar-tabs
-True Guitar Tabs Website
+# Rebranding du site True Guitar Tabs :
+https://www.trueguitartabs.com/
