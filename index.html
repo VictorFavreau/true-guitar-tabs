@@ -96,78 +96,47 @@
 
     <div id="container" class="slideshow">
 
-        <!--Set your own slider options. Look at the v_RevolutionSlider() function in 'theme-core.js' file to see options-->
-        <div class="home-slider-wrap fullwidthbanner-container" id="accueil">
-            <div class="v-rev-slider" data-slider-options='{ "startheight": 700 }'>
+        <!-- Bannière -->
+        <div class="img-fluid" style="background: url(img/slider/background.png) no-repeat center top #000; background-size: 100% 100%;">
 
-                <ul>
-
-                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
-
-                        <img src="img/slider/background.png" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-
-                        <div class="tp-caption light_heavy_50 sfl stl"
-                            data-x="350"
-                            data-y="245"
-                            data-speed="600"
-                            data-start="600"
-                            data-easing="Power1.easeInOut"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0"
-                            data-endelementdelay="0"
-                            data-endspeed="300">
-                            TRUE GUITAR TAB
-                        </div>
-
-                        <div class="tp-caption v-caption-h1 sfl stl"
-                            data-x="360"
-                            data-y="350"
-                            data-speed="700"
-                            data-start="1200"
-                            data-easing="Power1.easeInOut"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0"
-                            data-endelementdelay="0"
-                            data-endspeed="300">
-                            Venez découvrir le monde de la guitare.
-                        </div>
-
-                        <div class="tp-caption sfl stl"
-                            data-x="400"
-                            data-y="460"
-                            data-speed="600"
-                            data-start="1800"
-                            data-easing="Power1.easeInOut"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0"
-                            data-endelementdelay="0"
-                            data-endspeed="300">
-                            <a href='accords.html' class="btn v-btn v-second-light">LES ACCORDS</a>
-                        </div>
-
-                        <div class="tp-caption sfl stl"
-                            data-x="590"
-                            data-y="460"
-                            data-speed="600"
-                            data-start="2200"
-                            data-easing="Power1.easeInOut"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0"
-                            data-endelementdelay="0"
-                            data-endspeed="300">
-                            <a href='chansons.html' class="btn v-btn v-second-light">CHANSONS</a>
-                        </div>
-
-                    </li>
-                </ul>
+            <div class="container" style="height: 20vh">
+                <div class="v-spacer col-sm-12 v-height-small"></div>
             </div>
 
-            <div class="shadow-right"></div>
+            <div class="container" class="col-sm-12">
+
+                <div class="col center">
+                    
+                    <div class="v-animation" data-animation="pop-up" data-delay="200" style="font-size: 3em; font-weight: 700; color: white">
+                        TRUE GUITAR TAB
+                    </div>
+
+                    <div class="container">
+                        <div class="v-spacer col-sm-12 v-height-small"></div>
+                    </div>
+
+                    <div class="v-animation" data-animation="pop-up" data-delay="400" style="font-size: 1.8em; font-weight: 500; color: white">
+                        VENEZ DECOUVRIR LE MONDE DE LA GUITARE
+                    </div>
+
+                    <div class="container">
+                        <div class="v-spacer col-sm-12 v-height-big"></div>
+                    </div>
+
+                    <div class="row center v-animation" data-animation="pop-up" data-delay="600">
+                        <a href="accords.html"><button type="button" class="btn v-btn v-second-light">Les accords</button></a>
+                        <a href="chansons.html"><button type="button" class="btn v-btn v-second-light">Chansons</button></a>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div class="container" style="height: 10vh">
+                <div class="v-spacer col-sm-12 v-height-big"></div>
+            </div>
+
         </div>
+        <!-- END - Bannière -->
 
         <div class="v-page-wrap no-bottom-spacing">
 
